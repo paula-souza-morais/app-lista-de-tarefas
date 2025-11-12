@@ -10,10 +10,10 @@ Desenvolvido para rodar como **app de desktop** (Windows).
 - Clique na tarefa para marcar como concluída;
 - Clique no `×` para remover.
 
-## 🖥️ Download
+## Download
 
 Baixe o instalador do app aqui:  
-👉 [Download para Windows (.exe)](https://github.com/paula-souza-morais/app-lista-de-tarefas/releases/tag/v.1.0.0)
+[Download para Windows (.exe)](https://github.com/paula-souza-morais/app-lista-de-tarefas/releases/tag/v.1.0.0)
 
 ## Como foi feito =
 
