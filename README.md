@@ -2,6 +2,7 @@
 
 Aplicativo simples de lista de tarefas feito com HTML, CSS, JavaScript e Electron.
 Permite adicionar, marcar como concluídas e excluir tarefas, tudo fica salvo localmente no seu computador.
+Desenvolvido para rodar como **app de desktop** (Windows).
 
 ## Como usar =
 - Digite uma tarefa no campo de texto;
@@ -9,19 +10,21 @@ Permite adicionar, marcar como concluídas e excluir tarefas, tudo fica salvo lo
 - Clique na tarefa para marcar como concluída;
 - Clique no `×` para remover.
 
-## Rodando como aplicativo de desktop = 
-Este projeto também pode ser executado como um app de desktop usando [Electron](https://www.electronjs.org/).
+## Como executar = 
 
-### Passos = 
 1. Clone o repositório:
    git clone https://github.com/paula-souza-morais/app-lista-de-tarefas.git
+   cd app-lista-de-tarefas
 2. Instale as dependências:
-    npm install
-3. Execute o app:
-    npm start
+   npm install
+3. Inicie o aplicativo:
+   npx electron .
+O app abrirá em uma janela de desktop usando o Electron.
    
-Ou, se quiser, crie um executável com:
-npx electron-packager . "Lista de Tarefas" --platform=win32 --arch=x64 --out=dist
+## Como gerar o executável (Windows) =
+
+Se quiser criar o .exe:
+npx electron-packager . "Lista de Tarefas" --platform=win32 --arch=x64 --icon=images/icone.ico --out=dist
 
 ## Como foi feito =
 
@@ -30,9 +33,6 @@ npx electron-packager . "Lista de Tarefas" --platform=win32 --arch=x64 --out=dis
 - CSS3;
 - JavaScript;  
 - Electron (para transformar em aplicativo desktop);
-
-O projeto começou como um simples app web de lista de tarefas e foi adaptado para o **Electron**, criando uma versão que pode ser executada como programa no Windows, com ícone, menu personalizado e botões próprios de fechar/minimizar.
-
 
 ## Lições aprendidas =
 
