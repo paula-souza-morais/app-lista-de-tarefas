@@ -11,7 +11,7 @@ Desenvolvido para rodar como **app de desktop** (Windows).
 - Clique no `×` para remover.
 
 ## Como executar = 
-(você precisa ter o node.js já instalado, se não tiver instala por aqui: nodejs.org)
+(você precisa ter o node.js já instalado, se não tiver instala por aqui: [nodejs.org](https://nodejs.org/pt/download))
 1. Clone o repositório:
    git clone https://github.com/paula-souza-morais/app-lista-de-tarefas.git
    cd app-lista-de-tarefas
