@@ -38,7 +38,7 @@ body{
   justify-content: space-between;
   background: #B9D8C3;
   padding: 6px 10px;
-  -webkit-app-region: drag; /* permite arrastar a janela */
+  -webkit-app-region: drag; 
 }
 
 .title-left{
@@ -62,7 +62,7 @@ body{
   align-items: center;
   gap:4px;
   margin-right:12px;
-  -webkit-app-region: no-drag; /* os botões precisam ser clicáveis */
+  -webkit-app-region: no-drag; 
 }
 
 .window-buttons button{
@@ -73,7 +73,7 @@ body{
   cursor: pointer;
 }
 
-.window-buttons button im{
+.window-buttons button img{
   width: 40px;
   height: 40px;
 }
