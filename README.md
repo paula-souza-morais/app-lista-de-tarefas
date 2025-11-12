@@ -10,21 +10,10 @@ Desenvolvido para rodar como **app de desktop** (Windows).
 - Clique na tarefa para marcar como concluída;
 - Clique no `×` para remover.
 
-## Como executar = 
-(você precisa ter o node.js já instalado, se não tiver instala por aqui: [nodejs.org](https://nodejs.org/pt/download))
-1. Clone o repositório:
-   git clone https://github.com/paula-souza-morais/app-lista-de-tarefas.git
-   cd app-lista-de-tarefas
-2. Instale as dependências:
-   npm install
-3. Inicie o aplicativo:
-   npx electron .
-O app abrirá em uma janela de desktop usando o Electron.
-   
-## Como gerar o executável (Windows) =
+## 🖥️ Download
 
-Se quiser criar o .exe:
-npx electron-packager . "Lista de Tarefas" --platform=win32 --arch=x64 --icon=images/icone.ico --out=dist
+Baixe o instalador do app aqui:  
+👉 [Download para Windows (.exe)](https://github.com/paula-souza-morais/app-lista-de-tarefas/releases/tag/v.1.0.0)
 
 ## Como foi feito =
 
