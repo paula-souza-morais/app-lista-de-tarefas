@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-bar">
+        <div class="title-left"><h2>Lista de tarefas!</h2></div>
+        <div class="window-buttons">
+            <button id="shrink-btn"> <img src="images/shrink.png"> </button>
+            <button id="close-btn"><img src="images/close.png" alt="fechar"></button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="todo-app">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Adicione uma tarefa...">
+                <button onclick="addTask()">+</button>
+            </div>
+            <ul id="list-container">
+                <!--<li class="checked">tarefa 1</li>
+                <li>tarefa 2</li>
+                <li>tarefa 3</li>-->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "todolistapp",
+  "version": "1.0.0",
+  "description": "Lista de Tarefas!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paula-souza-morais/app-lista-de-tarefas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/paula-souza-morais/app-lista-de-tarefas/issues"
+  },
+  "homepage": "https://github.com/paula-souza-morais/app-lista-de-tarefas#readme",
+  "devDependencies": {
+    "electron": "^39.1.2",
+    "electron-packager": "^17.1.2"
+  },
+  
+  "build": {
+    "appId": "paulaSouza.listaTarefas",
+    "win": {
+      "icon": "images/icone.ico"
+    }
+}
+  
+}
+
+
